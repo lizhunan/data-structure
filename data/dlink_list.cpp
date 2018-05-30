@@ -9,7 +9,7 @@ int main()
 	DLinkList *L;
 	ElemType a[] = { 1,2,3,4,10,6,7,8,9 };
 	CreateDListR(L, a, 9);
-	example_2_4_12(L,10,11);
+	//example_2_4_12(L,10,11);
 	while (L)
 	{
 		printf("%d\t", L->data);
