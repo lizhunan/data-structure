@@ -27,6 +27,12 @@
     <ClCompile Include="dlink_list.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="sequence_stack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="link_stack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lib.h">
@@ -39,6 +45,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="dlink_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sequence_stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="link_stack.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

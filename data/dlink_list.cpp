@@ -4,9 +4,9 @@
 #include "lib.h"
 #include "dlink_list.h"
 
-int main()
-{
-	DLinkList *L;
+//int main()
+//{
+	/*DLinkList *L;
 	ElemType a[] = { 1,2,3,4,10,6,7,8,9 };
 	CreateDListR(L, a, 9);
 	//example_2_4_12(L,10,11);
@@ -15,8 +15,9 @@ int main()
 		printf("%d\t", L->data);
 		L = L->next;
 	}
-	printf("\n");
-}
+	printf("\n");*/
+//}
+
 
 void CreateDListF(DLinkList *& L, ElemType a[], int n)
 {
@@ -165,13 +166,13 @@ void example_2_4_14(DLinkList *& L)
 
 void example_2_4_15(DLinkList *& L)
 {
-	DLinkList *p = L->next,*s;
+	DLinkList *p = L->next, *s;
 	L->next = NULL;
 	while (p != NULL)
 	{
 		s = p->next;
 		p->next = L->next;
-		if (L->next != NULL) 
+		if (L->next != NULL)
 		{
 			L->next->prior = p;
 		}

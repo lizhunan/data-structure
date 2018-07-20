@@ -18,20 +18,15 @@ int main()
 	//ListInstert(L1, 11, 0);
 	//ListDelete(L1, 3);
 	//ListDelete(L1, 0);
-	example_2_3_42(L1, L2, L3);
+	a=FindKth(L1,4);
+	printf("\n");
+	printf("%d\t",a);
 	printf("\n");
 	while (L1 != NULL)
 	{
 		printf("%d\t", L1->data);
 		L1 = L1->next;
 	}
-	printf("\n");
-	while (L3 != NULL)
-	{
-		printf("%d\t", L3->data);
-		L3 = L3->next;
-	}
-	printf("\n");
 	return 0;
 }
 */
