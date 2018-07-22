@@ -5,16 +5,16 @@
 #include "link_stack.h"
 #include "lib.h"
 
-int main()
-{
-	LinkStack *lst;
-	InitStack(lst);
-	int d;
-	char A[8] = { 'I','O','I','I','O','I','O','O' };
-	d = example_3_3_9(lst, A, 8);
-	printf("%d", d);
-	return 0;
-}
+//int main()
+//{
+//	LinkStack *lst;
+//	InitStack(lst);
+//	int d;
+//	char A[8] = { 'I','O','I','I','O','I','O','O' };
+//	d = example_3_3_9(lst, A, 8);
+//	printf("%d", d);
+//	return 0;
+//}
 
 void InitStack(LinkStack *& lst)
 {

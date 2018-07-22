@@ -1,4 +1,3 @@
-//#include "link_list.h"
 int typedef ElemType;
 
 //Á´Õ»
