@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="dlink_list.cpp" />
     <ClCompile Include="link_list.cpp" />
+    <ClCompile Include="link_queue.cpp" />
     <ClCompile Include="link_stack.cpp" />
     <ClCompile Include="sequence_list.cpp" />
     <ClCompile Include="sequence_queue.cpp" />
@@ -31,6 +32,7 @@
     <ClInclude Include="dlink_list.h" />
     <ClInclude Include="lib.h" />
     <ClInclude Include="link_list.h" />
+    <ClInclude Include="link_queue.h" />
     <ClInclude Include="link_stack.h" />
     <ClInclude Include="sequence_list.h" />
     <ClInclude Include="sequence_queue.h" />
