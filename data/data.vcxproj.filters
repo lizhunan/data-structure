@@ -39,6 +39,12 @@
     <ClCompile Include="link_queue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="fixed_length_string.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fixed_length_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lib.h">

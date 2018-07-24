@@ -20,6 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dlink_list.cpp" />
+    <ClCompile Include="fixed_length_string.cpp" />
+    <ClCompile Include="fixed_length_string.h" />
     <ClCompile Include="link_list.cpp" />
     <ClCompile Include="link_queue.cpp" />
     <ClCompile Include="link_stack.cpp" />

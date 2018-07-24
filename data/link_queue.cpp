@@ -5,33 +5,33 @@
 #include "link_queue.h"
 #include "lib.h"
 
-int main()
-{
-	LQueue *lqu;
-	ElemType x;
-	InitQueue(lqu);
-	EnQueue(lqu, 0);
-	EnQueue(lqu, 2);
-	EnQueue(lqu, 4);
-	EnQueue(lqu, 5);
-	EnQueue(lqu, 6);
-	EnQueue(lqu, 8);
-	//Traverse(lqu);
-	DeQueue(lqu, x);
-	DeQueue(lqu, x);
-	DeQueue(lqu, x);
-	DeQueue(lqu, x);
-	//Traverse(lqu);
-	DeQueue(lqu, x);
-	DeQueue(lqu, x);
-	DeQueue(lqu, x);
-	DeQueue(lqu, x);
-	DeQueue(lqu, x);
-	Traverse(lqu);
-	//DeQueue(lqu, x);
-	//Traverse(lqu);
-	return 0;
-}
+//int main()
+//{
+//	LQueue *lqu;
+//	ElemType x;
+//	InitQueue(lqu);
+//	EnQueue(lqu, 0);
+//	EnQueue(lqu, 2);
+//	EnQueue(lqu, 4);
+//	EnQueue(lqu, 5);
+//	EnQueue(lqu, 6);
+//	EnQueue(lqu, 8);
+//	//Traverse(lqu);
+//	DeQueue(lqu, x);
+//	DeQueue(lqu, x);
+//	DeQueue(lqu, x);
+//	DeQueue(lqu, x);
+//	//Traverse(lqu);
+//	DeQueue(lqu, x);
+//	DeQueue(lqu, x);
+//	DeQueue(lqu, x);
+//	DeQueue(lqu, x);
+//	DeQueue(lqu, x);
+//	Traverse(lqu);
+//	//DeQueue(lqu, x);
+//	//Traverse(lqu);
+//	return 0;
+//}
 
 void InitQueue(LQueue *& lqu)
 {
