@@ -29,6 +29,7 @@
     <ClCompile Include="sequence_queue.cpp" />
     <ClCompile Include="sequence_stack.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dlink_list.h" />
@@ -39,6 +40,7 @@
     <ClInclude Include="sequence_list.h" />
     <ClInclude Include="sequence_queue.h" />
     <ClInclude Include="sequence_stack.h" />
+    <ClInclude Include="tree.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

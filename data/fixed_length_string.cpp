@@ -5,16 +5,16 @@
 #include "fixed_length_string.h"
 #include "lib.h"
 
-int main()
-{
-	FlString flstr;
-	char cs[] = { 'h','e','l','l','o',' ','w','o','r','l','d','\0' };
-	StrAssign(flstr, cs);
-	DispStr(flstr);
-	DispStr(SubStr(flstr,3,7));
-	DispStr(DelStr(flstr,6,6));
-	return 0;
-}
+//int main()
+//{
+//	FlString flstr;
+//	char cs[] = { 'h','e','l','l','o',' ','w','o','r','l','d','\0' };
+//	StrAssign(flstr, cs);
+//	DispStr(flstr);
+//	DispStr(SubStr(flstr,3,7));
+//	DispStr(DelStr(flstr,6,6));
+//	return 0;
+//}
 
 void StrAssign(FlString & str, char cstr[])
 {
