@@ -1,6 +1,7 @@
 ﻿  tree.cpp
-c:\users\lizhu\source\repos\data\data\tree.cpp(20): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-  c:\users\lizhu\source\repos\data\data\tree.cpp(20): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-  c:\users\lizhu\source\repos\data\data\tree.cpp(20): note: 缺失的可变参数 2 为格式字符串“%c”所需
-  c:\users\lizhu\source\repos\data\data\tree.cpp(20): note: 此参数用作缓冲区大小
+c:\users\lizhu\source\repos\data\data\tree.cpp(19): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  c:\users\lizhu\source\repos\data\data\tree.cpp(19): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  c:\users\lizhu\source\repos\data\data\tree.cpp(19): note: 缺失的可变参数 2 为格式字符串“%c”所需
+  c:\users\lizhu\source\repos\data\data\tree.cpp(19): note: 此参数用作缓冲区大小
+c:\users\lizhu\source\repos\data\data\tree.cpp(201): warning C4101: “j”: 未引用的局部变量
   data.vcxproj -> C:\Users\lizhu\source\repos\data\x64\Debug\data.exe
