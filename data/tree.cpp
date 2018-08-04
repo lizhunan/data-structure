@@ -5,13 +5,13 @@
 #include "lib.h"
 #include "tree.h"
 
-int main()
-{
-	BTNode *b;
-	CreateBTNode(b);
-	PreOrderTraverse_(b);
-	return 0;
-}
+//int main()
+//{
+//	BTNode *b;
+//	CreateBTNode(b);
+//	PreOrderTraverse_(b);
+//	return 0;
+//}
 
 void CreateBTNode(BTNode *& bt)
 {
